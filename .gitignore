@@ -1,0 +1,7 @@
+book
+target
+output
+
+# Editors tmp files.
+*~
+.idea/
