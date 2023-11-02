@@ -1,19 +1,19 @@
-# The Cairo Programming Language
+# Cairo by Practice
 
-[The Cairo Programming Language](title-page.md)
-[Foreword](ch00-01-foreword.md)
-[Introduction](ch00-00-introduction.md)
+[Cairo by Practice](title-page.md)
+<!-- [Foreword](ch00-01-foreword.md) -->
+[What Awaits You Next](ch00-00-what-awaits-you-next.md)
 
-## Getting Started
+## Variables
 
-- [Getting Started](ch01-00-getting-started.md)
+- [Variables](ch01-00-variables.md)
 
-  - [Installation](ch01-01-installation.md)
-  - [Hello, World!](ch01-02-hello-world.md)
+  <!-- - [Installation](ch01-01-installation.md)
+  - [Hello, World!](ch01-02-hello-world.md) -->
 
-## Common Programming Concepts
+## Data Types
 
-- [Common Programming Concepts](ch02-00-common-programming-concepts.md)
+- [Data Types](ch02-00-data-types.md)
   - [Variables and Mutability](ch02-01-variables-and-mutability.md)
   - [Data Types](ch02-02-data-types.md)
   - [Functions](ch02-03-functions.md)

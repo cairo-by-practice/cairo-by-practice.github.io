@@ -1,6 +1,7 @@
 ## What Awaits You Next
+what-awaits-you-next
 
-Your journey in the world of Cairo is far from over after completing the Cairo book, and there are several exciting paths you can take based on your interests and goals. Here's a glimpse of what awaits you next:
+Your journey in the world of Cairo is far from over, and there are several exciting paths you can take based on your interests and goals. Here's a glimpse of what awaits you next:
 
 ### Cairo and Trusted Computing
 
@@ -10,7 +11,4 @@ Cairo allows you to compute trustworthy values on untrusted machines. One major 
 
 As you embark on your journey into the world of Cairo and Starknet, it's valuable to be part of communities where you can seek answers to questions, share your knowledge, and collaborate with like-minded individuals. Here are some communities to consider:
 
-* **Cairo and Starkware Community:** Connect with developers, enthusiasts, and experts in Cairo and Starkware through their official community channels. They often provide valuable insights and support for those exploring Cairo.
-* **Ethereum Community:** Given Cairo's close relationship with Ethereum, being part of the Ethereum community can help you understand the broader context and potential applications of Cairo.
-* **Blockchain and Cryptocurrency Forums and Reddit's Cryptocurrency Subreddits:** Platforms like Bitcointalk and Reddit's cryptocurrency-related subreddits can be excellent places to engage in discussions, ask questions, and keep up with the latest developments in the world of blockchain and trusted computing.
 

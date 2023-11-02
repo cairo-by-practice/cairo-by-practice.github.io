@@ -1,29 +1,4 @@
-## Hello, World
-
-Now that you’ve installed Cairo through Scarb, it’s time to write your first Cairo program.
-It’s traditional when learning a new language to write a little program that
-prints the text `Hello, world!` to the screen, so we’ll do the same here!
-
-> Note: This book assumes basic familiarity with the command line. Cairo makes
-> no specific demands about your editing or tooling or where your code lives, so
-> if you prefer to use an integrated development environment (IDE) instead of
-> the command line, feel free to use your favorite IDE. The Cairo team has developed
-> a VSCode extension for the Cairo language that you can use to get the features from
-> the language server and code highlighting. See [Appendix D][devtools]
-> for more details.
-
-### Creating a Project Directory
-
-You’ll start by making a directory to store your Cairo code. It doesn’t matter
-to Cairo where your code lives, but for the exercises and projects in this book,
-we suggest making a _cairo_projects_ directory in your home directory and keeping all
-your projects there.
-
-Open a terminal and enter the following commands to make a _cairo_projects_ directory
-and a directory for the “Hello, world!” project within the _cairo_projects_ directory.
-
-> Note: From now on, for each example shown in the book, we assume that
-> you will be working from a Scarb project directory. If you are not using Scarb, and try to run the examples from a different directory, you might need to adjust the commands accordingly or create a Scarb project.
+We are assuming you have gone through thw cairo book
 
 For Linux, macOS, and PowerShell on Windows, enter this:
 

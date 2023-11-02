@@ -1,9 +1,9 @@
 [book]
-authors = ["Starknet community, with support from Starkware and Voyager"]
+authors = ["Peter Kagwe<kagwepeter07@gmail.com>"]
 language = "en"
 multilingual = false
 src = "src"
-title = "The Cairo Programming Language"
+title = "Cairo by Practice"
 
 [build]
 extra-watch-dirs = ["po"]
@@ -14,7 +14,9 @@ after = ["links"]
 [preprocessor.gettext]
 after = ["cairo"]
 
+
 [output.html]
 git-repository-url = "https://github.com/cairo-book/cairo-book.github.io/"
 edit-url-template = "https://github.com/cairo-book/cairo-book.github.io/edit/main/{path}"
 playground.runnable = true
+playground.editable = true
