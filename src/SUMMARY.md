@@ -14,8 +14,8 @@
 ## Data Types
 
 - [Data Types](ch02-00-data-types.md)
-  - [Variables and Mutability](ch02-01-variables-and-mutability.md)
-  - [Data Types](ch02-02-data-types.md)
+  - [Felt Types and Integer Types](ch02-01-felt-type-integer-type.md)
+  - [Boolean Types, Short String Types, Tuple and Unit Types](ch02-02-boolean-type-short-string-type-tuple-type-unit-type.md)
   - [Functions](ch02-03-functions.md)
   - [Comments](ch02-04-comments.md)
   - [Control Flow](ch02-05-control-flow.md)
