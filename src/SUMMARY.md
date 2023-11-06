@@ -11,7 +11,7 @@
   <!-- - [Installation](ch01-01-installation.md)
   - [Hello, World!](ch01-02-hello-world.md) -->
 
-## Data Types
+## Basic Types
 
 - [Data Types](ch02-00-data-types.md)
   - [Felt Types and Integer Types](ch02-01-felt-type-integer-type.md)
