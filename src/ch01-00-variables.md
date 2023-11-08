@@ -99,7 +99,7 @@ Constants are like variables, but they never change. They are always immutable.
 
 ```rust,editable
 
-// fix the error below
+// fix the line of code below
 
 const ONE_HOUR_IN_SECONDS = 3600;
 
@@ -114,9 +114,7 @@ Constants can only be declared in the global scope, making them suitable for val
 
     // Introduce a const  ONE_HOUR_IN_SECONDS
 
-        use debug::PrintTrait;
-
-        
+        use debug::PrintTrait;    
 
         fn main() {
 
@@ -156,31 +154,6 @@ A scope is the range within the program for which the variable is valid.
 
 1. 
 
-
-```rust,editable
-
-    use debug::PrintTrait;
-
-    fn main() {
-        let x = 5; // Outer scope
- 
-        {
-            let x = x * 2; 
-
-            
-
-            'Inner scope x value is:'.print();
-            x.print(); 
-
-        }
-        'Outer scope x value is:'.print();
-        x.print(); 
-    }
-
-
-```
-2. 
-
 -
 
 ```rust,editable
@@ -204,36 +177,88 @@ use debug::PrintTrait;
 
 ```
 
+2. 
+
+
+```rust,editable
+
+    use debug::PrintTrait;
+
+// Fix the error with the use of define_greetings
+
+    fn main() {
+ 
+        x.print(); 
+    }
+
+    fn define_greetings() {
+        let x = "hello World";
+    }
+
+```
+
+
 ## Shadowing
 
 Variable shadowing is the practice of declaring a new variable with the same name as an existing one, effectively taking precedence in scope.
 
 
+1. 
+
 ```rust,editable
 use debug::PrintTrait;
+// Only modify  the code below to make it work
 
 fn main() {
-    let x = 5; // Outer scope: Declaring the first variable x
-
-    let x = x + 1; // Shadowing in the same scope: Creating a new variable x, shadows the previous x
-
+    let x: i32 = 2;
     {
-        let x = x * 2; // Inner scope: Shadowing again in the inner scope, creating another new variable x
+        let x = 10;
 
-        'Inner scope x value is:'.print();
-        x.print(); // Printing the value of the innermost x
-
+        assert(x, 12,'Expected 12');
     }
-    'Outer scope x value is:'.print();
-    x.print(); // Printing the value of the x in the outer scope
+
+    assert(x, 2);
+
+    let x = 20;
+    x.print();
 }
 
 
 ```
 
-Shadowing allows reassignment of variables while maintaining immutability, unlike using `mut`.
+2. 
 
-In the provided code example, a variable `x` is initially set to 5 and is then shadowed in an inner scope, where its value is changed. When the inner scope ends, the inner shadowing is cleared, and the value returns to 5.
+```rust,editable
+use debug::PrintTrait;
+
+// modify  the code so that x is 16
+
+fn main() {
+    let x = 5; 
+
+    let x = x + 1; 
+
+
+    {
+        let x = x * 2; 
+
+        assert(x == 16, 'Expected 16');
+
+        'Inner scope x value is:'.print();
+        x.print(); 
+
+    }
+
+    'Outer scope x value is:'.print();
+    x.print(); 
+}
+
+
+```
+
+>Shadowing allows reassignment of variables while maintaining immutability, unlike using `mut`.
+
+1. 
 
 ```rust,editable
         // fix the error by using let x = five();
@@ -251,6 +276,6 @@ In the provided code example, a variable `x` is initially set to 5 and is then s
 
 ```
 
-Shadowing permits changing the variable type within the same name, which is not possible with `mut`.
+- Shadowing permits changing the variable type within the same name, which is not possible with `mut`.
 
 Shadowing can help keep code cleaner and more flexible when dealing with variables.
