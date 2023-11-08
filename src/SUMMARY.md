@@ -46,7 +46,7 @@
   - [Enums](ch06-01-enums.md)
   - [The Match Control Flow Construct](ch06-02-the-match-control-flow-construct.md)
 
-## Managing Cairo Projects with Packages, Crates and Modules
+## Managing Cairo Projects with Packages, Crates and Modules - To Do
 
 - [Managing Cairo Projects with Packages, Crates and Modules](ch07-00-managing-cairo-projects-with-packages-crates-and-modules.md)
 
@@ -56,35 +56,35 @@
   - [Bringing Paths into Scope with the 'use' Keyword](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
   - [Separating Modules into Different Files](ch07-05-separating-modules-into-different-files.md)
 
-## Generic Data Types
+## Generic Data Types - To Do
 
 - [Generic Types](ch08-00-generic-types-and-traits.md)
 
   - [Generic Functions](ch08-01-generic-data-types.md)
   - [Traits in Cairo](ch08-02-traits-in-cairo.md)
 
-## Testing Cairo Programs
+## Testing Cairo Programs - To Do
 
 - [Testing Cairo Programs](ch09-00-testing-cairo-programs.md)
 
   - [How To Write Tests](ch09-01-how-to-write-tests.md)
   - [Testing Organization](ch09-02-test-organization.md)
 
-## Error Handling
+## Error Handling - To Do
 
 - [Error Handling](ch10-00-error-handling.md)
 
   - [Unrecoverable Errors with panic](ch10-01-unrecoverable-errors-with-panic.md)
   - [Recoverable Errors with Result](ch10-02-recoverable-errors.md)
 
-## Advanced Features
+## Advanced Features - To Do
 
 - [Advanced Features](ch11-00-advanced-features.md)
 
   - [Operator Overloading](ch11-01-operator-overloading.md)
   - [Macros](ch11-02-macros.md)
 
-## Starknet smart contracts
+## Starknet smart contracts - To Do
 
 - [Starknet Smart Contracts](./ch99-00-starknet-smart-contracts.md)
 
