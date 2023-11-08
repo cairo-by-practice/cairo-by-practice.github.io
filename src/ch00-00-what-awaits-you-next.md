@@ -11,4 +11,4 @@ Cairo allows you to compute trustworthy values on untrusted machines. One major 
 
 As you embark on your journey into the world of Cairo and Starknet, it's valuable to be part of communities where you can seek answers to questions, share your knowledge, and collaborate with like-minded individuals. Here are some communities to consider:
 
-
+> TO DO
