@@ -27,17 +27,17 @@
   - [Dictionaries](ch03-02-dictionaries.md)
   - [Custom Data Structures](ch03-03-custom-data-structures.md)
 
-## Understanding Ownership
+## Ownership
 
-- [Understanding Ownership](ch04-00-understanding-ownership.md)
-  - [What is Ownership?](ch04-01-what-is-ownership.md)
+- [Ownership](ch04-00-ownership.md)
+  - [Ownership](ch04-01-what-is-ownership.md)
   - [References and Snapshots](ch04-02-references-and-snapshots.md)
 
-## Using Structs to Structure Related Data
+## Structs to Structure Related Data
 
-- [Using Structs to Structure Related Data](ch05-00-using-structs-to-structure-related-data.md)
-  - [Defining and Instantiating Structs](ch05-01-defining-and-instantiating-structs.md)
-  - [An Example Program Using Structs](ch05-02-an-example-program-using-structs.md)
+- [Structs to Structure Related Data](ch05-00-structs-to-structure-related-data.md)
+  - [Structs](ch05-01-structs.md)
+  - [Examples and Exercises](ch05-02-example-and-exercises-structs.md)
   - [Method Syntax](ch05-03-method-syntax.md)
 
 ## Enums and Pattern Matching
@@ -46,51 +46,51 @@
   - [Enums](ch06-01-enums.md)
   - [The Match Control Flow Construct](ch06-02-the-match-control-flow-construct.md)
 
-## Managing Cairo Projects with Packages, Crates and Modules - To Do
+## Packages, Crates and Modules - To Do
 
-- [Managing Cairo Projects with Packages, Crates and Modules](ch07-00-managing-cairo-projects-with-packages-crates-and-modules.md)
+- [Packages, Crates and Modules - To Do](ch07-00-packages-crates-and-modules.md)
 
   - [Packages and Crates](ch07-01-packages-and-crates.md)
-  - [Defining Modules to Control Scope](ch07-02-defining-modules-to-control-scope.md)
+  - [Modules to Control Scope](ch07-02-modules-to-control-scope.md)
   - [Paths for Referring to an Item in the Module Tree](ch07-03-paths-for-referring-to-an-item-in-the-module-tree.md)
   - [Bringing Paths into Scope with the 'use' Keyword](ch07-04-bringing-paths-into-scope-with-the-use-keyword.md)
   - [Separating Modules into Different Files](ch07-05-separating-modules-into-different-files.md)
 
 ## Generic Data Types - To Do
 
-- [Generic Types](ch08-00-generic-types-and-traits.md)
+- [Generic Types - To Do](ch08-00-generic-types-and-traits.md)
 
   - [Generic Functions](ch08-01-generic-data-types.md)
   - [Traits in Cairo](ch08-02-traits-in-cairo.md)
 
 ## Testing Cairo Programs - To Do
 
-- [Testing Cairo Programs](ch09-00-testing-cairo-programs.md)
+- [Testing Cairo Programs - To Do](ch09-00-testing-cairo-programs.md)
 
   - [How To Write Tests](ch09-01-how-to-write-tests.md)
   - [Testing Organization](ch09-02-test-organization.md)
 
 ## Error Handling - To Do
 
-- [Error Handling](ch10-00-error-handling.md)
+- [Error Handling - To Do](ch10-00-error-handling.md)
 
   - [Unrecoverable Errors with panic](ch10-01-unrecoverable-errors-with-panic.md)
   - [Recoverable Errors with Result](ch10-02-recoverable-errors.md)
 
 ## Advanced Features - To Do
 
-- [Advanced Features](ch11-00-advanced-features.md)
+- [Advanced Features - To Do](ch11-00-advanced-features.md)
 
   - [Operator Overloading](ch11-01-operator-overloading.md)
   - [Macros](ch11-02-macros.md)
 
 ## Starknet smart contracts - To Do
 
-- [Starknet Smart Contracts](./ch99-00-starknet-smart-contracts.md)
+- [Starknet Smart Contracts - To Do](./ch99-00-starknet-smart-contracts.md)
 
-  - [Introduction to smart-contracts](./ch99-01-01-introduction-to-smart-contracts.md)
+  - [to smart-contracts](./ch99-01-01-smart-contracts.md)
   - [A simple contract](./ch99-01-02-a-simple-contract.md)
-  - [A deeper dive into contracts](./ch99-01-03-00-a-deeper-dive-into-contracts.md)
+  - [Dive into contracts](./ch99-01-03-00-a-dive-into-contracts.md)
 
     - [Storage Variables](./ch99-01-03-01-storage-variables.md)
     - [Contract Functions](./ch99-01-03-02-contract-functions.md)

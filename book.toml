@@ -1,5 +1,5 @@
 [book]
-authors = ["Peter Kagwe<kagwepeter07@gmail.com>"]
+authors = ["Cairo-by-Practice community"]
 language = "en"
 multilingual = false
 src = "src"
@@ -16,7 +16,7 @@ after = ["cairo"]
 
 
 [output.html]
-git-repository-url = "https://github.com/cairo-book/cairo-book.github.io/"
-edit-url-template = "https://github.com/cairo-book/cairo-book.github.io/edit/main/{path}"
+git-repository-url = "https://github.com/cairo-by-practice/cairo-by-practice.github.io/"
+edit-url-template = "https://github.com/cairo-by-practice/cairo-by-practice.github.io/edit/main/{path}"
 playground.runnable = true
 playground.editable = true
