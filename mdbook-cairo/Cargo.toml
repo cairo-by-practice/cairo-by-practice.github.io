@@ -3,9 +3,9 @@ name = "mdbook-cairo"
 version = "0.2.0"
 edition = "2021"
 license = "MIT"
-authors = ["Cairo-book community"]
+authors = ["Cairo-by-Practice community"]
 description = "A mdbook preprocessor to be used with cairo-verify"
-repository = "https://github.com/cairo-book/cairo-book.github.io"
+repository = "https://github.com/cairo-by-practice/cairo-by-practice.github.io"
 
 [dependencies]
 clap = "4.3.5"
