@@ -63,3 +63,84 @@ fn main() {
 ```
 
 > use kitchen::bakery_product::Bread; lets us use bring the Bread type into scope
+
+
+### Grouping Related Code in Modules
+
+- Modules let us organize code within a crate for readability and easy reuse.
+
+```rust,editable
+
+mod front_of_house {
+    
+    mod hosting {
+        fn add_to_waitlist() {}
+
+        fn seat_at_table() {}
+    }
+
+    mod serving {
+        fn take_order() {}
+
+        fn serve_order() {}
+
+        fn take_payment() {}
+    }
+}
+
+```
+
+module tree 
+
+```rust,editable
+restaurant
+ └── front_of_house
+     ├── hosting
+     │   ├── add_to_waitlist
+     │   └── seat_at_table
+     └── serving
+         ├── take_order
+         ├── serve_order
+         └── take_payment
+
+
+```
+
+Excerices
+
+1. 
+
+Create Warehouse Crate:
+
+Begin by creating a new Cairo package named "warehouse_management" using scarb new warehouse_management.
+Open the src/lib.rs file and establish the module structure within the crate.
+
+```rust,editable
+
+//scarb new warehouse_management
+```
+
+```rust,editable
+
+// Define modules to represent different aspects of the warehouse system, such as inventory, receiving, shipping, and employees.
+// Organize these modules based on their functionality and relationships within the warehouse system.
+
+```
+
+
+```rust,editable
+
+// Within each module, define function signatures or method prototypes that represent actions related to that specific area of the warehouse (e.g., adding items to inventory, receiving shipments, employee management).
+// Leave the function bodies empty to emphasize module structuring rather than implementation details.
+
+```
+
+2. 
+
+add the module tree of the above module
+
+
+```rust,editable
+//module tree 
+
+```
