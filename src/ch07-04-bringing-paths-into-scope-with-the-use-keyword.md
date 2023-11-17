@@ -1,13 +1,3 @@
-
-None selected
-
-Skip to content
-Using Gmail with screen readers
-Conversations
-3.26 GB of 15 GB used
-Terms · Privacy · Programme Policies
-Last account activity: 5 hours ago
-Details
 ### Bringing Paths into Scope with the use Keyword
 
 1. 
