@@ -305,3 +305,7 @@ fn plus_one() -> u32 {
 }
 
 ```
+
+Resources:
+
+>[Functions](https://book.cairo-lang.org/ch02-03-functions.html)

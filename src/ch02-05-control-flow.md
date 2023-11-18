@@ -263,3 +263,8 @@ fn main() {
 
 
 >  Cairo prevents us from running program with infinite loops by including a gas meter. The gas meter is a mechanism that limits the amount of computation that can be done in a program.
+
+
+Resources: 
+
+>[Control Flow](https://book.cairo-lang.org/ch02-05-control-flow.html)
