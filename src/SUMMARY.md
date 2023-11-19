@@ -13,7 +13,7 @@
 
 ## Basic Types
 
-- [Data Types](ch02-00-data-types.md)
+- [Basic Types](ch02-00-data-types.md)
   - [Felt Types and Integer Types](ch02-01-felt-type-integer-type.md)
   - [Boolean Types, Short String Types, Tuple and Unit Types](ch02-02-boolean-type-short-string-type-tuple-type-unit-type.md)
   - [Functions](ch02-03-functions.md)
